@@ -183,8 +183,8 @@ export default function Home() {
         </span>
       </aside>
       <header style={{ position: "sticky", top: 0, zIndex: 20000 }}>
-        <div className="flex justify-between bg-gray-100 py-6 px-14 items-center">
-          <h1 className="text-4xl font-semibold">Yulax Craft</h1>
+        <div className="flex justify-between bg-gray-100 py-6 px-6 lg:px-14 items-center">
+          <h1 className="text-2xl md:text-4xl font-semibold">Yulax Craft</h1>
           <div className="hidden lg:block">
             <ul className="flex">
               {middleNavList.map((midNav, index) => (
@@ -274,7 +274,8 @@ export default function Home() {
           </Swiper>
           <div className="text-gray-300 text-3xl font-semibold absolute top-[50%] w-full text-center translate-y-[-50%] z-50">
             <span className="bg-black rounded-xl py-4 px-6">
-              Welcome To The Yulax Craft Division
+              <span className="hidden lg:inline">Welcome To The</span> Yulax
+              Craft Division
             </span>
           </div>
         </div>
@@ -282,7 +283,7 @@ export default function Home() {
           <h1 className="text-4xl text-center tracking-widest text-gray-800 font-bold mb-10">
             The Group
           </h1>
-          <div className="w-[95%] sm:w-[85%] md:w-[55%] mx-auto">
+          <div className="w-[85%] md:w-[55%] mx-auto">
             <p className="text-lg leading-8">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Voluptatum autem ipsam consectetur ipsum, natus ratione repellat
@@ -296,7 +297,7 @@ export default function Home() {
           <h1 className="text-4xl text-center tracking-widest text-gray-800 font-bold mb-10">
             Divisions
           </h1>
-          <div className="w-[95%] sm:w-[85%] md:w-[55%] mx-auto">
+          <div className="w-[85%] md:w-[55%] mx-auto">
             <p className="text-lg leading-8">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Voluptatum autem ipsam consectetur ipsum, natus ratione repellat
@@ -329,7 +330,7 @@ export default function Home() {
           </div>
         </div>
         <div className="py-24 space-y-6">
-          <div className="w-[95%] sm:w-[85%] md:w-[55%] lg:w-[45%] mx-auto">
+          <div className="w-[85%] md:w-[55%] lg:w-[45%] mx-auto">
             <h1 className="text-5xl tracking-widest text-gray-800 font-bold mb-10">
               Mission
             </h1>
@@ -373,7 +374,7 @@ export default function Home() {
         </div>
       </main>
       <footer className="bg-gray-800 py-36">
-        <div className="grid grid-cols-3 justify-center">
+        <div className="grid lg:grid-cols-3 lg:gap-y-2 justify-center">
           <ul className="space-y-4">
             <li className="text-center text-lg font-semibold text-gray-300">
               Location
