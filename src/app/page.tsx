@@ -79,7 +79,7 @@ export default function Home() {
   const [heroImages, setHeroImages] = useState<string[]>(heroImgs);
   const [currentSlide, setCurrentSlide] = useState<number>(0);
   const [asideScreen, setAsideScreen] = useState<AsideScreenTypes>("main");
-  const [showAside, setShowAside] = useState<boolean>(true);
+  const [showAside, setShowAside] = useState<boolean>(false);
   const [prevIndex, setPrevIndex] = useState<number | null>(null);
   const [sliderRef, instanceRef] = useKeenSlider<HTMLDivElement>({
     loop: true,
