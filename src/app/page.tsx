@@ -272,7 +272,7 @@ export default function Home() {
               <img src="images/79.jpg" className="w-full h-full object-cover" />
             </SwiperSlide>
           </Swiper>
-          <div className="text-gray-300 text-3xl font-semibold absolute top-[50%] w-full text-center translate-y-[-50%] z-50">
+          <div className="text-gray-300 text-xl lg:text-3xl font-semibold absolute top-[50%] w-full text-center translate-y-[-50%] z-50">
             <span className="bg-black rounded-xl py-4 px-6">
               <span className="hidden lg:inline">Welcome To The</span> Yulax
               Craft Division
@@ -341,7 +341,7 @@ export default function Home() {
               natus nulla et voluptates. Recusandae nesciunt temporibus
             </p>
           </div>
-          <div className="w-[95%] sm:w-[85%] md:w-[55%] lg:w-[45%] mx-auto">
+          <div className="w-[85%] md:w-[55%] lg:w-[45%] mx-auto">
             <h1 className="text-5xl tracking-widest text-gray-800 font-bold mb-10">
               Vision
             </h1>
@@ -374,7 +374,7 @@ export default function Home() {
         </div>
       </main>
       <footer className="bg-gray-800 py-36">
-        <div className="grid lg:grid-cols-3 lg:gap-y-2 justify-center">
+        <div className="grid lg:grid-cols-3 gap-y-8 justify-center">
           <ul className="space-y-4">
             <li className="text-center text-lg font-semibold text-gray-300">
               Location
